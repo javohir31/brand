@@ -1,3 +1,47 @@
+@media(max-width: 950px) {
+    .page-header {
+        padding-block: 25px;
+    }
+
+    .banner {
+        padding-block: 0;
+    }
+
+    .banner-info {
+        max-width: 645px;
+        row-gap: 30px;
+        padding-block: 30px;
+        padding-bottom: -20px;
+    }
+
+    .banner-info_title {
+        font-size: 48px;
+        line-height: 120%;
+        max-width: 540px;
+    }
+    
+    .banner-info_text {
+        font-size: 20px;
+        line-height: 120%;
+        max-width: 520px;
+    }
+    
+    .btn {
+        padding-block: 15px;
+        font-size: 14px;
+        line-height: 120%;
+    }
+    
+    .quote_btn {
+        padding-inline: 30px;
+    }
+    
+    .learn_btn {
+        padding-inline: 30px;
+    }
+}
+
+
 @media(max-width: 740px) {
     .user-action {
         display: none;
@@ -6,7 +50,7 @@
     .header-nav {
         position: absolute;
         top: 0;
-        left: 0;
+        left: -100%;
         width: 0;
         height: 100vh;
         background-color: red;
@@ -18,12 +62,13 @@
 
     .header-nav.active {
         width: 300px;
+        left: 0;
     }
-    
+
     .header-nav_link {
         color: #fff;
     }
-    
+
     .burger-menu {
         display: flex;
     }
@@ -31,12 +76,524 @@
     .burger-menu.active span {
         background-color: transparent;
     }
+
     .burger-menu.active span::before {
         transform: rotate(45deg);
         top: 0;
     }
+
     .burger-menu.active span::after {
         transform: rotate(-45deg);
         top: 0;
+    }
+
+    .spin {
+        width: 150px;
+        height: 150px;
+    }
+
+    .mad {
+        width: 650px;
+        padding: 20px;
+        margin: 350px auto;
+    }
+
+    .get-modal {
+        width: 600px;
+        padding: 30px;
+        margin: 325px auto;
+    }
+
+    .close-modal-btn {
+        width: 25px;
+        height: 25px;
+        top: 13px;
+        right: 18px;
+    }
+
+    .close-get-modal {
+        width: 25px;
+        height: 25px;
+        top: 13px;
+        right: 18px;
+    }
+
+    .tit {
+        font-size: 23px;
+        margin-bottom: 18px;
+    }
+
+    .swiper {
+        height: 328px;
+    }
+
+    .swiper-slide {
+        font-size: 15px;
+        row-gap: 18px;
+        padding: 32px 45px;
+    }
+
+    .wrapper {
+        gap: 75px;
+    }
+
+    .header-logo {
+        font-size: 18px;
+    }
+
+    .user-action {
+        column-gap: 40px;
+    }
+
+    .join-btn {
+        padding: 13px 23px;
+        font-size: 14px;
+    }
+
+    .banner {
+        padding-block: 0;
+    }
+
+    .banner-info {
+        max-width: 590px;
+        row-gap: 25px;
+        padding-block: 20px;
+    }
+
+    .banner-info_subtitle {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .banner-info_title {
+        font-size: 38px;
+        line-height: 75px;
+        max-width: 520px;
+    }
+
+    .banner-info_text {
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 500px;
+    }
+
+    .btn-group {
+        column-gap: 10px;
+    }
+
+    .btn {
+        border-radius: 5px;
+        padding-block: 15px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .quote_btn {
+        padding-inline: 25px;
+    }
+
+
+    .learn_btn {
+        padding-inline: 25px;
+    }
+
+    .swiper-section {
+        padding-bottom: 75px;
+    }
+
+    .slide-title {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+
+    .slide-title::after {
+        width: 45px;
+        top: 35px;
+    }
+
+    .slide-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .packages {
+        padding-block: 145px;
+    }
+
+    .packages-img {
+        max-width: 480px;
+    }
+
+    .packages-info {
+        max-width: 350px;
+        row-gap: 35px;
+    }
+
+    .packages-info_title,
+    .main-title {
+        font-weight: 650;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .packages-info_title::before {
+        width: 90px;
+        height: 7px;
+        top: -33px;
+    }
+
+    .packages-info_text,
+    .main-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .packages-info_link,
+    .main-subtitle {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+    .client {
+        padding-block: 150px 210px;
+    }
+
+    .client-info_text {
+        max-width: 445px;
+    }
+
+    .client-info_title {
+        margin-block: 10px;
+    }
+
+    .testimonial {
+        margin-top: 90px;
+        gap: 30px;
+    }
+
+    .testimonial-card {
+        padding: 24px 24px 28px;
+        height: 368px;
+        max-width: 490px;
+    }
+
+    .user-img_wrapper {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 28px;
+    }
+
+    .user-opinion {
+        max-width: 350px;
+        margin-bottom: 115px;
+    }
+
+    .user-name {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .user-job {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .contact {
+        padding-block: 150px;
+    }
+
+    .contact-content {
+        max-width: 650px;
+    }
+
+    .contact-text {
+        max-width: 445px;
+        margin-top: 10px;
+    }
+
+    .contact-form {
+        margin-top: 75px;
+    }
+
+    .contact-form_input,
+    .login-form input {
+        padding: 16px 20px;
+    }
+
+    .contact-form_input::placeholder,
+    .login-form input::placeholder {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .contact-form_btn,
+    .submit {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    .login-form_button {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 680px) {
+    .header-nav.active {
+        width: 280px;
+    }
+
+    .spin {
+        width: 150px;
+        height: 150px;
+    }
+
+    .mad {
+        width: 650px;
+        padding: 20px;
+        margin: 350px auto;
+    }
+
+    .get-modal {
+        width: 600px;
+        padding: 30px;
+        margin: 325px auto;
+    }
+
+    .close-modal-btn {
+        width: 25px;
+        height: 25px;
+        top: 13px;
+        right: 18px;
+    }
+
+    .close-get-modal {
+        width: 25px;
+        height: 25px;
+        top: 13px;
+        right: 18px;
+    }
+
+    .tit {
+        font-size: 23px;
+        margin-bottom: 18px;
+    }
+
+    .swiper {
+        height: 328px;
+    }
+
+    .swiper-slide {
+        font-size: 15px;
+        row-gap: 18px;
+        padding: 32px 45px;
+    }
+
+    .wrapper {
+        gap: 75px;
+    }
+
+    .header-logo {
+        font-size: 18px;
+    }
+
+    .user-action {
+        column-gap: 40px;
+    }
+
+    .join-btn {
+        padding: 13px 23px;
+        font-size: 14px;
+    }
+
+    .banner {
+        padding-block: 0;
+    }
+
+    .banner-info {
+        max-width: 540px;
+        row-gap: 18px;
+        padding-block: 15px;
+    }
+
+    .banner-info_subtitle {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .banner-info_title {
+        font-size: 45px;
+        line-height: 75px;
+        max-width: 530px;
+    }
+
+    .banner-info_text {
+        font-size: 18px;
+        line-height: 25px;
+        max-width: 500px;
+    }
+
+    .btn-group {
+        column-gap: 10px;
+    }
+
+    .btn {
+        border-radius: 5px;
+        padding-block: 15px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .quote_btn {
+        padding-inline: 37px;
+    }
+
+
+    .learn_btn {
+        padding-inline: 35px;
+    }
+
+    .swiper-section {
+        padding-bottom: 75px;
+    }
+
+    .slide-title {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+
+    .slide-title::after {
+        width: 45px;
+        top: 35px;
+    }
+
+    .slide-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .packages {
+        padding-block: 145px;
+    }
+
+    .packages-img {
+        max-width: 480px;
+    }
+
+    .packages-info {
+        max-width: 350px;
+        row-gap: 35px;
+    }
+
+    .packages-info_title,
+    .main-title {
+        font-weight: 650;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .packages-info_title::before {
+        width: 90px;
+        height: 7px;
+        top: -33px;
+    }
+
+    .packages-info_text,
+    .main-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .packages-info_link,
+    .main-subtitle {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+    .client {
+        padding-block: 150px 210px;
+    }
+
+    .client-info_text {
+        max-width: 445px;
+    }
+
+    .client-info_title {
+        margin-block: 10px;
+    }
+
+    .testimonial {
+        margin-top: 90px;
+        gap: 30px;
+    }
+
+    .testimonial-card {
+        padding: 24px 24px 28px;
+        height: 368px;
+        max-width: 490px;
+    }
+
+    .user-img_wrapper {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 28px;
+    }
+
+    .user-opinion {
+        max-width: 350px;
+        margin-bottom: 115px;
+    }
+
+    .user-name {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .user-job {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .contact {
+        padding-block: 150px;
+    }
+
+    .contact-content {
+        max-width: 650px;
+    }
+
+    .contact-text {
+        max-width: 445px;
+        margin-top: 10px;
+    }
+
+    .contact-form {
+        margin-top: 75px;
+    }
+
+    .contact-form_input,
+    .login-form input {
+        padding: 16px 20px;
+    }
+
+    .contact-form_input::placeholder,
+    .login-form input::placeholder {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .contact-form_btn,
+    .submit {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    .login-form_button {
+        margin-top: 20px;
     }
 }
