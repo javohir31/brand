@@ -39,6 +39,166 @@
     .learn_btn {
         padding-inline: 30px;
     }
+
+    .spin {
+        width: 140px;
+        height: 140px;
+    }
+    .mad {
+        width: 635px;
+        padding: 20px;
+        margin: 338px auto;
+    }
+    .get-modal {
+        width: 580px;
+        padding: 30px;
+        margin: 325px auto;
+    }
+
+    .swiper {
+        height: 328px;
+    }
+
+    .swiper-slide {
+        font-size: 15px;
+        row-gap: 18px;
+        padding: 32px 45px;
+    }
+
+    .wrapper {
+        gap: 75px;
+    }
+    .user-action {
+        column-gap: 40px;
+    }
+
+    .join-btn {
+        padding: 16px 26px;
+        font-size: 14px;
+    }
+
+    .swiper-section {
+        padding-bottom: 75px;
+    }
+
+    .slide-title {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+
+    .slide-title::after {
+        width: 45px;
+        top: 35px;
+    }
+
+    .slide-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .packages {
+        padding-block: 145px;
+    }
+
+    .packages-img {
+        max-width: 475px;
+    }
+
+    .packages-info {
+        max-width: 345px;
+        row-gap: 35px;
+    }
+
+    .packages-info_title,
+    .main-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .packages-info_title::before {
+        width: 90px;
+        height: 7px;
+        top: -35px;
+    }
+
+    .packages-info_link,
+    .main-subtitle {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .client {
+        padding-block: 160px 220px;
+    }
+
+    .client-info_text {
+        max-width: 460px;
+    }
+
+    .client-info_title {
+        margin-block: 15px;
+    }
+
+    .testimonial {
+        margin-top: 95px;
+        gap: 35px;
+    }
+
+    .testimonial-card {
+        height: 360px;
+        max-width: 480px;
+    }
+
+    .user-img_wrapper {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 28px;
+    }
+
+    .user-opinion {
+        max-width: 346px;
+        margin-bottom: 120px;
+    }
+
+    .contact {
+        padding-block: 160px;
+    }
+
+    .contact-content {
+        max-width: 660px;
+    }
+
+    .contact-text {
+        max-width: 455px;
+        margin-top: 15px;
+    }
+
+    .contact-form {
+        margin-top: 80px;
+    }
+
+    .contact-form_input,
+    .login-form input {
+        padding: 20px 25px;
+    }
+
+    .contact-form_input::placeholder,
+    .login-form input::placeholder {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .contact-form_btn,
+    .submit {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    .login-form_button {
+        margin-top: 20px;
+    }
 }
 
 
@@ -88,19 +248,19 @@
     }
 
     .spin {
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
     }
 
     .mad {
-        width: 650px;
+        width: 610px;
         padding: 20px;
-        margin: 350px auto;
+        margin: 320px auto;
     }
 
     .get-modal {
-        width: 600px;
-        padding: 30px;
+        width: 575px;
+        padding: 28px;
         margin: 325px auto;
     }
 
@@ -124,7 +284,7 @@
     }
 
     .swiper {
-        height: 328px;
+        height: 319px;
     }
 
     .swiper-slide {
@@ -134,7 +294,7 @@
     }
 
     .wrapper {
-        gap: 75px;
+        gap: 65px;
     }
 
     .header-logo {
@@ -142,7 +302,7 @@
     }
 
     .user-action {
-        column-gap: 40px;
+        column-gap: 35px;
     }
 
     .join-btn {
@@ -150,109 +310,93 @@
         font-size: 14px;
     }
 
-    .banner {
-        padding-block: 0;
-    }
-
     .banner-info {
-        max-width: 590px;
-        row-gap: 25px;
-        padding-block: 20px;
-    }
-
-    .banner-info_subtitle {
-        font-size: 15px;
-        line-height: 23px;
+        max-width: 600px;
+        row-gap: 20px;
+        padding-block: 25px;
+        padding-bottom: -10px;
     }
 
     .banner-info_title {
         font-size: 38px;
-        line-height: 75px;
-        max-width: 520px;
+        line-height: 120%;
+        max-width: 510px;
     }
-
+    
     .banner-info_text {
         font-size: 18px;
-        line-height: 28px;
-        max-width: 500px;
+        line-height: 120%;
+        max-width: 505px;
     }
-
-    .btn-group {
-        column-gap: 10px;
-    }
-
+    
     .btn {
-        border-radius: 5px;
         padding-block: 15px;
         font-size: 14px;
-        line-height: 22px;
+        line-height: 120%;
     }
-
+    
     .quote_btn {
-        padding-inline: 25px;
+        padding-inline: 20px;
     }
-
-
+    
     .learn_btn {
-        padding-inline: 25px;
+        padding-inline: 20px;
     }
-
     .swiper-section {
-        padding-bottom: 75px;
+        padding-bottom: 65px;
     }
 
     .slide-title {
         font-size: 16px;
-        line-height: 20px;
+        line-height: 120%;
         margin-bottom: 18px;
     }
 
     .slide-title::after {
-        width: 45px;
-        top: 35px;
+        width: 40px;
+        top: 30px;
     }
 
     .slide-text {
         font-size: 14px;
-        line-height: 18px;
+        line-height: 120%;
     }
 
     .packages {
-        padding-block: 145px;
+        padding-block: 135px;
     }
 
     .packages-img {
-        max-width: 480px;
+        max-width: 465px;
     }
 
     .packages-info {
-        max-width: 350px;
-        row-gap: 35px;
+        max-width: 335px;
+        row-gap: 30px;
     }
 
     .packages-info_title,
     .main-title {
-        font-weight: 650;
         font-size: 35px;
-        line-height: 45px;
+        line-height: 120%;
     }
 
     .packages-info_title::before {
-        width: 90px;
+        width: 88px;
         height: 7px;
-        top: -33px;
+        top: -30px;
     }
 
     .packages-info_text,
     .main-text {
         font-size: 14px;
-        line-height: 18px;
+        line-height: 120%;
     }
 
     .packages-info_link,
     .main-subtitle {
         font-size: 14px;
-        line-height: 24px;
+        line-height: 120%;
     }
 
 
@@ -275,30 +419,30 @@
 
     .testimonial-card {
         padding: 24px 24px 28px;
-        height: 368px;
-        max-width: 490px;
+        height: 355px;
+        max-width: 475px;
     }
 
     .user-img_wrapper {
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
         margin-bottom: 28px;
     }
 
     .user-opinion {
-        max-width: 350px;
-        margin-bottom: 115px;
+        max-width: 325px;
+        margin-bottom: 95px;
     }
 
     .user-name {
         font-size: 16px;
-        line-height: 24px;
+        line-height: 120%;
         margin-bottom: 5px;
     }
 
     .user-job {
         font-size: 14px;
-        line-height: 24px;
+        line-height: 120%;
     }
 
     .contact {
@@ -326,7 +470,7 @@
     .contact-form_input::placeholder,
     .login-form input::placeholder {
         font-size: 14px;
-        line-height: 28px;
+        line-height: 120%;
     }
 
     .contact-form_btn,
@@ -342,57 +486,57 @@
 
 @media(max-width: 680px) {
     .header-nav.active {
-        width: 280px;
+        width: 265px;
     }
 
     .spin {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
     }
 
     .mad {
-        width: 650px;
+        width: 590px;
         padding: 20px;
-        margin: 350px auto;
+        margin: 300px auto;
     }
 
     .get-modal {
-        width: 600px;
-        padding: 30px;
-        margin: 325px auto;
+        width: 540px;
+        padding: 28px;
+        margin: 300px auto;
     }
 
     .close-modal-btn {
-        width: 25px;
-        height: 25px;
+        width: 24px;
+        height: 24px;
         top: 13px;
         right: 18px;
     }
 
     .close-get-modal {
-        width: 25px;
-        height: 25px;
+        width: 24px;
+        height: 24px;
         top: 13px;
-        right: 18px;
+        right: 17px;
     }
 
     .tit {
-        font-size: 23px;
+        font-size: 22px;
         margin-bottom: 18px;
     }
 
     .swiper {
-        height: 328px;
+        height: 290px;
     }
 
     .swiper-slide {
         font-size: 15px;
         row-gap: 18px;
-        padding: 32px 45px;
+        padding: 30px 40px;
     }
 
     .wrapper {
-        gap: 75px;
+        gap: 55px;
     }
 
     .header-logo {
@@ -400,7 +544,7 @@
     }
 
     .user-action {
-        column-gap: 40px;
+        column-gap: 30px;
     }
 
     .join-btn {
@@ -408,172 +552,146 @@
         font-size: 14px;
     }
 
-    .banner {
-        padding-block: 0;
-    }
-
     .banner-info {
-        max-width: 540px;
-        row-gap: 18px;
-        padding-block: 15px;
-    }
-
-    .banner-info_subtitle {
-        font-size: 15px;
-        line-height: 20px;
+        max-width: 590px;
+        row-gap: 20px;
+        padding-block: 25px;
+        padding-bottom: -10px;
     }
 
     .banner-info_title {
-        font-size: 45px;
-        line-height: 75px;
-        max-width: 530px;
-    }
-
-    .banner-info_text {
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 36px;
         max-width: 500px;
     }
-
-    .btn-group {
-        column-gap: 10px;
+    
+    .banner-info_text {
+        font-size: 18px;
+        max-width: 488px;
     }
-
+    
     .btn {
-        border-radius: 5px;
         padding-block: 15px;
         font-size: 14px;
-        line-height: 22px;
     }
-
+    
     .quote_btn {
-        padding-inline: 37px;
+        padding-inline: 18px;
     }
-
-
+    
     .learn_btn {
-        padding-inline: 35px;
+        padding-inline: 18px;
     }
-
     .swiper-section {
-        padding-bottom: 75px;
+        padding-bottom: 55px;
     }
 
     .slide-title {
         font-size: 16px;
-        line-height: 20px;
         margin-bottom: 18px;
     }
 
     .slide-title::after {
-        width: 45px;
-        top: 35px;
+        width: 35px;
+        top: 25px;
     }
 
     .slide-text {
         font-size: 14px;
-        line-height: 18px;
     }
 
     .packages {
-        padding-block: 145px;
+        padding-block: 120px;
     }
 
     .packages-img {
-        max-width: 480px;
+        max-width: 445px;
     }
 
     .packages-info {
-        max-width: 350px;
-        row-gap: 35px;
+        max-width: 320px;
+        row-gap: 28px;
     }
 
     .packages-info_title,
     .main-title {
-        font-weight: 650;
         font-size: 35px;
-        line-height: 45px;
     }
 
     .packages-info_title::before {
-        width: 90px;
+        width: 80px;
         height: 7px;
-        top: -33px;
+        top: -24px;
     }
 
     .packages-info_text,
     .main-text {
         font-size: 14px;
-        line-height: 18px;
     }
 
     .packages-info_link,
     .main-subtitle {
         font-size: 14px;
-        line-height: 24px;
     }
 
 
     .client {
-        padding-block: 150px 210px;
+        padding-block: 130px 190px;
     }
 
     .client-info_text {
-        max-width: 445px;
+        max-width: 435px;
     }
 
     .client-info_title {
         margin-block: 10px;
     }
 
-    .testimonial {
-        margin-top: 90px;
-        gap: 30px;
-    }
+    /* .testimonial {
+        margin-top: 80px;
+        gap: 28px;
+    } */
 
     .testimonial-card {
         padding: 24px 24px 28px;
-        height: 368px;
-        max-width: 490px;
+        height: 335px;
+        max-width: 455px;
     }
 
     .user-img_wrapper {
-        width: 120px;
-        height: 120px;
-        margin-bottom: 28px;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 25px;
     }
 
     .user-opinion {
-        max-width: 350px;
-        margin-bottom: 115px;
+        max-width: 325px;
+        margin-bottom: 95px;
     }
 
     .user-name {
         font-size: 16px;
-        line-height: 24px;
         margin-bottom: 5px;
     }
 
     .user-job {
         font-size: 14px;
-        line-height: 24px;
     }
 
     .contact {
-        padding-block: 150px;
+        padding-block: 135px;
     }
 
     .contact-content {
-        max-width: 650px;
+        max-width: 630px;
     }
 
     .contact-text {
-        max-width: 445px;
+        max-width: 425px;
         margin-top: 10px;
     }
 
     .contact-form {
-        margin-top: 75px;
+        margin-top: 65px;
     }
 
     .contact-form_input,
@@ -584,7 +702,6 @@
     .contact-form_input::placeholder,
     .login-form input::placeholder {
         font-size: 14px;
-        line-height: 28px;
     }
 
     .contact-form_btn,

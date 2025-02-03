@@ -1,106 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./style/main.css" />
-  <link rel="stylesheet" href="./style/media.css" />
-  <title>BrandName</title>
-</head>
-
-<body>
-  <div id="loader">
-    <div class="spin"></div>
-  </div>
-  <!-- Accessible -  -->
-  <header class="page-header">
-    <div class="container">
-      <div class="content">
-        <div class="wrapper">
-          <a href="#!" class="header-logo">BrandName</a>
-          <nav class="header-nav">
-            <a href="#!" class="header-nav_link">Home</a>
-            <a href="#!" class="header-nav_link">Product</a>
-            <a href="#!" class="header-nav_link">Pricing</a>
-            <a href="#!" class="header-nav_link">Contact</a>
-          </nav>
-        </div>
-
-        <div class="user-action">
-          <button type="button" class="login-btn">Login</button>
-          <button type="button" class="join-btn">Join us →</button>
-        </div>
-        <button type="menu" class="burger-menu">
-          <span></span>
-        </button>
-
-        <dialog class="login-modal mad">
-          <button autofocus class="close-modal-btn close">
-            <img src="./image/close-icon.png" width="30px" height="30px" alt="">
-          </button>
-          <h2 class="login-form_title tit">Enter your login and password</h2>
-          <form class="login-form frmos" action="">
-            <label for="username">Username</label>
-            <input type="text" placeholder="Enter your name" name="username" required min="3">
-            <br>
-            <label for="login">Login</label>
-            <input type="text" placeholder="Enter your login" name="login" required min="4">
-            <button type="submit" class="login-form_button submit">Submit</button>
-          </form>
-        </dialog>
-
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/media.css" />
+    <title>BrandName</title>
+  </head>
+  <body>
+    <div id="loader">
+      <div class="spin"></div>
     </div>
-  </header>
-
-  <main>
-    <section class="banner">
+    <!-- Accessible -  -->
+    <header class="page-header">
       <div class="container">
-        <div class="banner-info">
-          <span class="banner-info_subtitle" data-aos="fade-right" data-aos-duration="1500">Welcome</span>
-          <h1 class="banner-info_title">
-            Selling on the internet like a pro
-          </h1>
-          <p class="banner-info_text">
-            We know how large objects will act, but things on a small scale
-            just do not act that way.
-          </p>
+        <div class="content">
+          <div class="wrapper">
+            <a href="#!" class="header-logo">BrandName</a>
+            <nav class="header-nav">
+              <a href="#!" class="header-nav_link">Home</a>
+              <a href="#!" class="header-nav_link">Product</a>
+              <a href="#!" class="header-nav_link">Pricing</a>
+              <a href="#!" class="header-nav_link">Contact</a>
+            </nav>
+          </div>
 
-          <div class="btn-group">
-            <button type="button" class="quote_btn btn">Get Quote Now</button>
-            <button type="button" class="learn_btn btn">Learn More</button>
+          <div class="user-action">
+            <button type="button" class="login-btn">Login</button>
+            <button type="button" class="join-btn">Join us →</button>
+          </div>
+          <button type="menu" class="burger-menu">
+            <span></span>
+          </button>
 
-            <dialog class="get-modal">
-              <button autofocus class="close-get-modal">
-                <img src="./image/close-icon.png" width="30px" height="30px" alt="">
-              </button>
-              <h2 class="Get-form_title tit">
-                send a message to myself
-              </h2>
-              <p class="get-from_text slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, error
-                non sequi architecto eos quam.</p>
-              <button class="close-btn-get-modal">Got it</button>
-            </dialog>
+          <dialog class="login-modal">
+            <button autofocus class="close-modal-btn">
+              <img src="./image/close-icon.png" width="30px" height="30px" alt="">
+            </button>
+            <h2 class="login-form_title">Enter your login and password</h2>
+            <form class="login-form" action="">
+              <label for="username">Username</label>
+              <input type="text" placeholder="Enter your name" name="username" required min="3">
+              <br>
+              <label for="login">Login</label>
+              <input type="text" placeholder="Enter your login" name="login" required min="4">
+              <button type="submit" class="login-form_button">Submit</button>
+            </form>
+          </dialog>
+          
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="banner">
+        <div class="container">
+          <div class="banner-info">
+            <span
+              class="banner-info_subtitle" data-aos="fade-right" data-aos-duration="1500"
+              >Welcome</span
+            >
+            <h1
+              class="banner-info_title"
+            >
+              Selling on the internet like a pro
+            </h1>
+            <p class="banner-info_text">
+              We know how large objects will act, but things on a small scale
+              just do not act that way.
+            </p>
+
+            <div class="btn-group">
+              <button type="button" class="quote_btn btn">Get Quote Now</button>
+              <button type="button" class="learn_btn btn">Learn More</button>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- <section class="swiper-section">
+     <section class="swiper-section">
       <div class="container">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="icon-wrapper light-blue">
-                <img src="./image/face.svg" width="26" height="26" alt="">
-              </div>
-              <h2 class="slide-title">Market Analysis</h2>
-              <p class="slide-text">
-                The gradual accumulation of information about atomic and small-scale behaviour...
-              </p>
+                <div class="icon-wrapper light-blue">
+                  <img src="./image/face.svg" width="26" height="26" alt="">
+                </div>
+                <h2 class="slide-title">Market Analysis</h2>
+                <p class="slide-text">
+                  The gradual accumulation of information about atomic and small-scale behaviour...
+                </p>
             </div>
             <div class="swiper-slide">
               <div class="icon-wrapper light-green">
@@ -128,68 +122,68 @@
               <p class="slide-text">
                 The gradual accumulation of information about atomic and small-scale behaviour...
               </p>
-            </div>
-            <div class="swiper-slide">
-              <div class="icon-wrapper light-green">
-                <img src="./image/true.svg" width="26" height="26" alt="">
-              </div>
-              <h2 class="slide-title">Evaluation Time</h2>
-              <p class="slide-text">
-                The gradual accumulation of information about atomic and small-scale behaviour...
-              </p>
-            </div>
-            <div class="swiper-slide">
-              <div class="icon-wrapper light-blue">
-                <img src="./image/course.svg" width="26" height="26" alt="">
-              </div>
-              <h2 class="slide-title">2,769 online courses</h2>
-              <p class="slide-text">
-                The gradual accumulation of information about atomic and small-scale behaviour...
-              </p>
-            </div>
           </div>
-
+          <div class="swiper-slide">
+            <div class="icon-wrapper light-green">
+              <img src="./image/true.svg" width="26" height="26" alt="">
+            </div>
+            <h2 class="slide-title">Evaluation Time</h2>
+            <p class="slide-text">
+              The gradual accumulation of information about atomic and small-scale behaviour...
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <div class="icon-wrapper light-blue">
+              <img src="./image/course.svg" width="26" height="26" alt="">
+            </div>
+            <h2 class="slide-title">2,769 online courses</h2>
+            <p class="slide-text">
+              The gradual accumulation of information about atomic and small-scale behaviour...
+            </p>
+          </div>
+          </div>
+         
           <div class="swiper-pagination"></div>
         </div>
       </div>
-    </section>
+     </section>
 
-    <section class="packages">
-      <div class="container">
-        <div class="content">
-          <div class="packages-img">
-            <img src="./image/children.png" class="packages-img_pic" alt="Packages that 
+     <section class="packages">
+        <div class="container">
+          <div class="content">
+            <div class="packages-img">
+              <img src="./image/children.png" class="packages-img_pic" alt="Packages that 
               are aprodable">
-          </div>
-          <div class="packages-info">
-            <h2 class="packages-info_title">Packages that
-              are aprodable</h2>
+            </div>
+            <div class="packages-info">
+                <h2 class="packages-info_title">Packages that 
+                  are aprodable</h2>
 
-            <p class="packages-info_text">Problems trying to resolve the conflict between
-              the two major realms of Classical physics:
-              Newtonian mechanics </p>
+                  <p class="packages-info_text">Problems trying to resolve the conflict between 
+                    the two major realms of Classical physics: 
+                    Newtonian mechanics </p>
 
-            <a href="#!" class="packages-info_link">
-              learn more >
-            </a>
+                    <a href="#!" class="packages-info_link">
+                      learn more >
+                    </a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+     </section>
 
-    <section class="client">
+     <section class="client">
       <div class="container">
         <div class="client-info">
           <span class="client-info_subtitle main-subtitle">practise advice</span>
           <h2 class="client-info_title main-title">
             Each and every client is important.
           </h2>
-          <p class="client-info_text main-text">Problems trying to resolve the conflict between
+          <p class="client-info_text main-text">Problems trying to resolve the conflict between 
             the two major realms of Classical physics: Newtonian mechanics </p>
         </div>
 
 
-        <div class="testimonial swiper mySwiper2">
+        <!-- <div class="testimonial swiper mySwiper2">
           <div class="testimonial-card swiper-slide">
              <div class="user-img_wrapper">
               <img src="./image/user-1.png" class="user-img_img" alt="user img">
@@ -242,136 +236,101 @@
              <span class="user-job">Designer</span>
           </div>
          
-        </div>
+        </div> -->
         <div class="swiper mySwiper2 testimonial">
           <div class="swiper-wrapper">
             <div class="swiper-slide testimonial-card">
               <div class="user-img_wrapper">
                 <img src="./image/user-1.png" class="user-img_img" alt="user img">
-
-              </div>
-
-              <p class="user-opinion main-text">
-                Slate helps you see how many more days you need to work to reach your financial goal for the month and
-                year.
-              </p>
-
-              <div>
+  
+               </div>
+  
+               <p class="user-opinion main-text">
+                Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+               </p>
+  
+               <div>
                 <img src="./image/stars.svg" alt="">
-              </div>
-
-              <h3 class="user-name">Regina Miles</h3>
-              <span class="user-job">Designer</span>
+               </div>
+  
+               <h3 class="user-name">Regina Miles</h3>
+               <span class="user-job">Designer</span>
             </div>
             <div class="swiper-slide testimonial-card">
               <div class="user-img_wrapper">
                 <img src="./image/user-2.png" class="user-img_img" alt="user img">
-
-              </div>
-
-              <p class="user-opinion main-text">
-                Slate helps you see how many more days you need to work to reach your financial goal for the month and
-                year.
-              </p>
-
-              <div>
+  
+               </div>
+  
+               <p class="user-opinion main-text">
+                Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+               </p>
+  
+               <div>
                 <img src="./image/stars.svg" alt="">
-              </div>
-
-              <h3 class="user-name">Regina Miles</h3>
-              <span class="user-job">Designer</span>
+               </div>
+  
+               <h3 class="user-name">Regina Miles</h3>
+               <span class="user-job">Designer</span>
             </div>
             <div class="swiper-slide testimonial-card">
               <div class="user-img_wrapper">
                 <img src="./image/user-1.png" class="user-img_img" alt="user img">
-
-              </div>
-
-              <p class="user-opinion main-text">
-                Slate helps you see how many more days you need to work to reach your financial goal for the month and
-                year.
-              </p>
-
-              <div>
+  
+               </div>
+  
+               <p class="user-opinion main-text">
+                Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+               </p>
+  
+               <div>
                 <img src="./image/stars.svg" alt="">
-              </div>
-
-              <h3 class="user-name">Regina Miles</h3>
-              <span class="user-job">Designer</span>
+               </div>
+  
+               <h3 class="user-name">Regina Miles</h3>
+               <span class="user-job">Designer</span>
             </div>
-
+           
           </div>
         </div>
       </div>
-    </section>  
+     </section>
 
-    <section class="contact">
+     <section class="contact">
       <div class="container">
         <div class="contact-content">
-          <span class="contact-subtitle main-subtitle">practise advice</span>
-          <h2 class="contact-title main-title">Featured Products</h2>
-          <p class="contact-text main-text">Problems trying to resolve the conflict between
-            the two major realms of Classical physics: Newtonian mechanics </p>
+            <span class="contact-subtitle main-subtitle">practise advice</span>
+            <h2 class="contact-title main-title">Featured Products</h2>
+            <p class="contact-text main-text">Problems trying to resolve the conflict between 
+              the two major realms of Classical physics: Newtonian mechanics </p>
 
-          <form class="contact-form">
-            <input type="email" class="contact-form_input" placeholder="Your Email" required>
-            <button type="submit" class="contact-form_btn">Subscribe</button>
-          </form>
+              <form class="contact-form">
+                <input type="email" class="contact-form_input" placeholder="Your Email" required>
+                <button type="submit" class="contact-form_btn">Subscribe</button>
+              </form>
         </div>
       </div>
-    </section> -->
-    <footer></footer>
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          840: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+     </section>
+    
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true
           },
-          950: {
-            slidesPerView: 3,
-            spaceBetween: 35,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 45,
-          },
-        },
-      });
-      var swiper = new Swiper(".mySwiper2", {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 15,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 30,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 40,
-          },
-        },
-      });
-    </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./js/app.js"></script>
-    <!-- Initialize Swiper -->
-</body>
-
+          
+        });
+        var swiper = new Swiper(".mySwiper2", {
+          slidesPerView: 2,
+          spaceBetween: 30
+        });
+        </script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="./js/app.js"></script>
+      <!-- Initialize Swiper -->
+  </body>
 </html>
