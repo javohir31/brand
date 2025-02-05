@@ -92,7 +92,19 @@
         row-gap: 15px;
     }
 
+    .main-subtitle{
+        font-size: 14px;
+        line-height: 120%;
+    }
 
+    .contact-content {
+        max-width: 650px;
+    }
+
+    .main-text {
+        font-size: 14px;
+        line-height: 120%;
+    }
 }
 
 @media(max-width:600px) {
