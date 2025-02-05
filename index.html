@@ -13,9 +13,9 @@
     <title>BrandName</title>
   </head>
   <body>
-    <div id="loader">
+    <!-- <div id="loader">
       <div class="spin"></div>
-    </div>
+    </div> -->
     <!-- Accessible -  -->
     <header class="page-header">
       <div class="container">
@@ -58,7 +58,7 @@
     </header>
 
     <main>
-      <section class="banner">
+       <section class="banner">
         <div class="container">
           <div class="banner-info">
             <span
@@ -183,7 +183,7 @@
         </div>
 
 
-        <!-- <div class="testimonial swiper mySwiper2">
+        <div class="testimonial swiper mySwiper2">
           <div class="testimonial-card swiper-slide">
              <div class="user-img_wrapper">
               <img src="./image/user-1.png" class="user-img_img" alt="user img">
@@ -236,7 +236,7 @@
              <span class="user-job">Designer</span>
           </div>
          
-        </div> -->
+        </div>
         <div class="swiper mySwiper2 testimonial">
           <div class="swiper-wrapper">
             <div class="swiper-slide testimonial-card">
@@ -296,7 +296,7 @@
       </div>
      </section>
 
-     <section class="contact">
+     <!-- <section class="contact">
       <div class="container">
         <div class="contact-content">
             <span class="contact-subtitle main-subtitle">practise advice</span>
@@ -310,19 +310,29 @@
               </form>
         </div>
       </div>
-     </section>
+     </section> -->
     
       <!-- Swiper JS -->
+       <!-- Mobile first -->
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <script>
         var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 3,
+          slidesPerView: 1,
           spaceBetween: 30,
           pagination: {
             el: ".swiper-pagination",
             clickable: true
           },
-          
+          breakpoints:{
+            350:{
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            600:{
+              slidesPerView: 3,
+              spaceBetween: 30,
+            }
+          }
         });
         var swiper = new Swiper(".mySwiper2", {
           slidesPerView: 2,

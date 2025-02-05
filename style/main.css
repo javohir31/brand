@@ -31,7 +31,7 @@ button {
     border: none;
 }
 
-#loader {
+/* #loader {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -56,9 +56,9 @@ button {
     to {
         transform: rotate(360deg);
     }
-}
+} */
 
-.mad {
+.login-modal {
     width: 700px;
     height: max-content;
     padding: 25px;
@@ -67,22 +67,7 @@ button {
     position: relative;
 }
 
-.get-modal{
-    width: 650px;
-    height: max-content;
-    padding: 35px;
-    border: 1px solid var(--gray);
-    margin: 350px auto;
-    position: relative;
-}
-.close-modal-btn{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 15px;
-    right: 20px;
-}
-.close-get-modal {
+.close-modal-btn {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -91,28 +76,28 @@ button {
 
 }
 
-.tit {
+.login-form_title {
     font-size: 25px;
     font-family: var(--MB);
     margin-bottom: 20px;
 }
 
-.frmos{
+.login-form {
     display: flex;
     flex-direction: column;
     align-items: start;
 }
-.frmos label {
+.login-form label {
     font-size: 18px;
     font-family: var(--MR);
     line-height: 120%;
     margin-bottom: 10px;
 }
-header,
+/* header,
 main,
 footer {
     display: none;
-}
+} */
 .swiper {
     width: 100%;
     height: 100%;
@@ -164,6 +149,7 @@ footer {
     font-size: 20px;
     font-weight: 600;
     color: var(--dark);
+    font-family: var(--MB);
 }
 
 .header-nav {
@@ -177,6 +163,7 @@ footer {
     font-weight: 500;
     line-height: 19px;
     color: var(--gray);
+    font-family: var(--MR);
 }
 
 .user-action {
@@ -388,7 +375,7 @@ footer {
     width: 100%;
 }
 
-.packages-img_img {
+.packages-img_pic {
     width: 100%;
 }
 
@@ -560,7 +547,7 @@ footer {
 }
 
 .contact-form_btn,
-.submit{
+.login-form_button {
     padding: 15px 23px;
     background-color: var(--secondary);
     color: var(--primary);
