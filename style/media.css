@@ -213,4 +213,78 @@
     .banner-info_title {
         font-size: 30px;
     }
+
+    .contact {
+        padding-block: 15px;
+    }
+
+    .main-title {
+        font-size: 30px;
+        line-height: 120%;
+    }
+
+    .main-subtitle {
+        font-size: 13.5px;
+        line-height: 120%;
+    }
+
+    .main-text {
+        font-size: 13.5px;
+        line-height: 120%;
+    }
+}
+
+
+@media(max-width:320px) {
+    .contact {
+        padding-block: 15px;
+    }
+    
+    .contact-content {
+        max-width: 660px;
+    }
+    
+    .contact-text {
+        max-width: 440px;
+        margin-top: 13px;
+    }
+    
+    .contact-form {
+        margin-top: 45px;
+    }
+    
+    .contact-form_input,
+    .login-form input {
+        padding: 14px 17px;
+    }
+    
+    .contact-form_input::placeholder,
+    .login-form input::placeholder {
+        font-size: 14px;
+        line-height: 120%px;
+    }
+    
+    .contact-form_btn,
+    .login-form_button {
+        padding: 13px 21px;
+        font-size: 13px;
+    }
+    .login-form_button {
+        margin-top: 15px;
+    }
+
+    .main-title {
+        font-size: 25px;
+        line-height: 120%;
+    }
+
+    .main-subtitle {
+        font-size: 12px;
+        line-height: 120%;
+    }
+
+    .main-text {
+        font-size: 11.5px;
+        line-height: 120%;
+    }
 }
