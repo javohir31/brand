@@ -5,7 +5,16 @@ burgerMenu.addEventListener("click", () => {
   console.log("Clicked");
   nav.classList.toggle("active");
   burgerMenu.classList.toggle("active");
+  if (burgerMenu.classList.contains("active")){
+    document.body.style.overflow = "hidden"
+  }
+
+  else{
+    document.body.style.overflow = "auto"
+  }
 });
+
+
 
 AOS.init();
 
@@ -38,3 +47,5 @@ loginSubmitBtn.addEventListener("click", (e) => {
   loginForm.reset();
   modal.close();
 });
+
+
